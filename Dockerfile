@@ -3,8 +3,7 @@ FROM debian:jessie
 #### Install system dependencies
 
 RUN apt-get update && apt-get install -y \
-    build-essential \
-    ca-certificates \
+    ca-certificates \ # PEM files of CA certificates to allow SSL-based applications to check for the authenticity of SSL connections
     git \
     python \
     python-dev \
