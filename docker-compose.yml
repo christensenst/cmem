@@ -1,0 +1,4 @@
+cmem:
+  build: .
+  volumes:
+    - ./cmem:/opt/cmem

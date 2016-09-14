@@ -1,6 +1,16 @@
 # cmem
 analyze memory usage in c
 
+## build and start
+
+1. Build the image(s)
+
+    `docker-compose build`
+
+2. Start and drop into the containers
+
+    `docker-compose run cmem`
+
 ## Compile and run a program in C
 
 1. Change directory to the directory with your program
@@ -15,7 +25,7 @@ analyze memory usage in c
 
     `./prog01`
 
-## Compile and rn with the gdb debugger
+## Compile and run with the gdb debugger
 
 1. Change directory to the directory with your program
 
